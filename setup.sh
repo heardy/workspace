@@ -21,5 +21,5 @@ elif [ $OS == $WIN ]
 then
   echo "do win shiz"
 # else
-#   echo "Count is less than 100"
+#   echo "do something else"
 fi
