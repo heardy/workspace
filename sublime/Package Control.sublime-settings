@@ -1,0 +1,17 @@
+{
+	"installed_packages":
+	[
+		"Backbone.js",
+		"EditorConfig",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"LoremIpsum",
+		"Open Folder",
+		"Razor",
+		"Sass",
+		"Theme - Soda",
+		"Theme - Spacegray"
+	]
+}

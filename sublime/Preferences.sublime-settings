@@ -1,0 +1,20 @@
+{
+	"afn_proj_root": "",
+	"afn_use_project_root": true,
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"fade_fold_buttons": false,
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"theme": "Spacegray Eighties.sublime-theme"
+}

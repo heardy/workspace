@@ -23,3 +23,12 @@ then
 # else
 #   echo "do something else"
 fi
+
+
+#stuff that will need happen when above is sorted
+# cp ./.bashrc ~/.bashrc
+
+# reload .bashrc
+#source ~/.bashrc
+
+#cp ./sublime/*.* /c/Program\ Files/Sublime\ Text\ 3/Packages/User
