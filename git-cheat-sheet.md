@@ -13,7 +13,7 @@
 #### Interactive rebase
 
 ```
-git checkout <base_branch> && git pull origin <base_branch>`
+git checkout <base_branch> && git pull origin <base_branch>
 git checkout <branch_name>
 git rebase -i <base_branch>
 ```
