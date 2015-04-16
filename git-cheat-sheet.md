@@ -13,9 +13,9 @@
 #### Interactive rebase
 
 ```
-git checkout <source_branch> && git pull origin <source_branch>`
+git checkout <base_branch> && git pull origin <base_branch>`
 git checkout <branch_name>
-git rebase -i <source_branch>
+git rebase -i <base_branch>
 ```
 
 #### Rebase local commits (ie. not pushed to remote)
