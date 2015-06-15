@@ -1,3 +1,8 @@
+#### Caching git password
+https://help.github.com/articles/caching-your-github-password-in-git/
+
+Windows - `git config --global credential.helper wincred`
+
 #### Checkout previous branch
 
 `git checkout -`
