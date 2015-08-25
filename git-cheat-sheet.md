@@ -32,6 +32,6 @@ Reference - http://balinterdi.com/2011/07/19/git-rebase-to-fix-your-local-commit
 
 #### Show summary diff
 
-Shows a summary diff indicating files that have been renamed/moved and inidication (using a percentage) how much they have changed from the original file.
+Shows a summary diff of file changes, including indicating files that have been renamed/moved and showing a percentage to indicate how much they have changed from the original file.
 
 `git diff --summary -M master <branch-name>`
