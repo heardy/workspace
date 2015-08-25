@@ -29,3 +29,9 @@ Reference - http://balinterdi.com/2011/07/19/git-rebase-to-fix-your-local-commit
 &lt;n&gt; - represents the number of commits to rebase
 
 `git rebase -i HEAD~<n>`
+
+#### Show summary diff
+
+Shows a summary diff indicating files that have been renamed/moved and inidication (using a percentage) how much they have changed from the original file.
+
+`git diff --summary -M master <branch-name>`
