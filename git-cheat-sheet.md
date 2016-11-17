@@ -1,7 +1,17 @@
 #### Caching git password
 https://help.github.com/articles/caching-your-github-password-in-git/
 
-Windows - `git config --global credential.helper wincred`
+##### Windows
+`git config --global credential.helper wincred`
+
+##### Mac
+`git config --global credential.helper osxkeychain`
+
+##### Linux
+```
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+```
 
 #### Checkout previous branch
 
