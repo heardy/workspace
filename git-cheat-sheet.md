@@ -46,6 +46,14 @@ Shows a summary diff of file changes, including indicating files that have been 
 
 `git diff --summary -M master <branch-name>`
 
+### Show log with file names
+
+`git log --name-only`
+
+### Show files only for a commit
+
+`git show --name-only <commit>`
+
 ### Automatic conflict resolution
 
 https://hackernoon.com/fix-conflicts-only-once-with-git-rerere-7d116b2cec67
