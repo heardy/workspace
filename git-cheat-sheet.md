@@ -40,6 +40,16 @@ Reference - http://balinterdi.com/2011/07/19/git-rebase-to-fix-your-local-commit
 
 `git rebase -i HEAD~<n>`
 
+### Rename branch
+
+If you want to rename a branch while pointed to any branch, do:
+
+`git branch -m <oldname> <newname>`
+
+If you want to rename the current branch, you can do:
+
+`git branch -m <newname>`
+
 ### Show summary diff
 
 Shows a summary diff of file changes, including indicating files that have been renamed/moved and showing a percentage to indicate how much they have changed from the original file.
