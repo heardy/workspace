@@ -50,6 +50,20 @@ If you want to rename the current branch, you can do:
 
 `git branch -m <newname>`
 
+### Total branches
+
+Local branches only
+
+`git branch | wc -l `
+
+Remote branches only
+
+`git branch -r | wc -l`
+
+All branches
+
+`git branch -a | wc -l`
+
 ### Show summary diff
 
 Shows a summary diff of file changes, including indicating files that have been renamed/moved and showing a percentage to indicate how much they have changed from the original file.
