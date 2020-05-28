@@ -4,3 +4,7 @@
 `curl --user <username>:<password> --cookie-jar ./cookie.txt <site-url>`
 
 `curl --interface <ip-address> --user <username>:<password> --cookie-jar ./cookie.txt <site-url>`
+
+##### NTFS on MacOS
+
+`sudo ntfs-3g /dev/disk2s1 ./mnt/ntfs/ -olocal -oallow_other -o auto_xattr`
