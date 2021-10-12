@@ -83,3 +83,7 @@ Shows a summary diff of file changes, including indicating files that have been 
 https://hackernoon.com/fix-conflicts-only-once-with-git-rerere-7d116b2cec67
 
 `git config --global rerere.enabled true`
+
+### Git tagging (Annotated)
+
+`git tag -a 1.4 -m "my version 1.4"`
