@@ -87,3 +87,7 @@ https://hackernoon.com/fix-conflicts-only-once-with-git-rerere-7d116b2cec67
 ### Git tagging (Annotated)
 
 `git tag -a 1.4 -m "my version 1.4"`
+
+##### with folders
+
+`git tag -a ctm-approve/1.5.1 -m "ctm-approve-1.5.1"`
