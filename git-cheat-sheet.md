@@ -101,3 +101,23 @@ https://hackernoon.com/fix-conflicts-only-once-with-git-rerere-7d116b2cec67
 ##### Push tags (all)
 
 `git push --follow-tags`
+
+##### List all remote tags
+
+`git ls-remote --tags`
+
+##### Deleting tags locally
+
+`git tag -d $(git tag -l "tag_prefix*")`
+
+##### Deleting tags from remote
+
+`git tag | grep <pattern> | xargs -n 1 -i% git push origin :refs/tags/%`
+
+-or-
+
+`git push origin --delete $(git ls-remote --tags | grep "tag_prefix.*[^}]$" | cut -f 2)`
+
+`git ls-remote --tags` - will output all remote tags.  
+`grep "*tag_prefix.*[^}]$"` - will ignore tags with annotated dereference operator "^{}" since including them errored out.  
+`cut -f 2` - keeps the tag name column only  
