@@ -2,6 +2,14 @@
 
 `find . -name '*.svelte'`
 
+##### Case insensitive
+
+`find . -iname '*.svelte'`
+
+##### Max depth
+
+`find . -iname "*portal*" -maxdepth 2`
+
 ##### Exlude folders
 
 `find . -name '*.svelte' -not -path './node_modules/*'`
