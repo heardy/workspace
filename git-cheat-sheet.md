@@ -84,6 +84,12 @@ https://hackernoon.com/fix-conflicts-only-once-with-git-rerere-7d116b2cec67
 
 `git config --global rerere.enabled true`
 
+### Git merge
+
+Non fast forward with custom merge message
+
+`git merge --no-ff -m 'release 3.48.0' release/3.48.0`
+
 ### Git tagging
 
 ##### Annotated
