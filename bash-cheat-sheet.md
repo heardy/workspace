@@ -27,3 +27,10 @@ To exclude multiple directories, OR them between parentheses.
 And, to exclude directories with a specific name at any level, use the -name primary instead of -path.
 
 `find . -type d -name node_modules -prune -o -name '*.json' -print`
+
+### Find string in files
+
+Example of finding the node version within all node module package.json files
+
+`grep -ho '"node":.*' node_modules/*/package.json | sort`
+
