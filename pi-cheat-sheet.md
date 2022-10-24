@@ -5,3 +5,7 @@
 ##### Show temp
 
 `vcgencmd measure_temp`
+
+##### Update pihole
+
+`pihole -up`
