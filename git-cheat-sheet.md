@@ -50,6 +50,30 @@ If you want to rename the current branch, you can do:
 
 `git branch -m <newname>`
 
+### Remove file(s) from previous commit
+
+`git reset --soft HEAD^`
+
+or
+
+`git reset --soft HEAD~1`
+
+Then reset the unwanted files in order to leave them out from the commit (the old way):
+
+`git reset HEAD path/to/unwanted_file`
+
+Note, that since Git 2.23.0 one can (the new way):
+
+`git restore --staged path/to/unwanted_file`
+
+May need to discard the changes to the file (or delete it)
+
+`git restore path/to/unwanted_file`
+
+Now commit again, you can even re-use the same commit message:
+
+`git commit -c ORIG_HEAD`
+
 ### Total branches
 
 Local branches only
