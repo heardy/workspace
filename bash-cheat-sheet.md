@@ -34,3 +34,12 @@ Example of finding the node version within all node module package.json files
 
 `grep -ho '"node":.*' node_modules/*/package.json | sort`
 
+### Running ports
+
+`nc -z <host> <port>`
+
+eg. `nc -z localhost 30002` // Connection to localhost port 30002 [tcp/pago-services2] succeeded!
+
+##### Find PID
+
+`sudo lsof -n -i :30002 | grep LISTEN`
